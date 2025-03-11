@@ -10,7 +10,7 @@
     tools:layout_editor_absoluteX="-12dp"
     tools:layout_editor_absoluteY="0dp">
 
-    <!-- Input Box 1 -->
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputbox"
         android:layout_width="350dp"
@@ -31,7 +31,7 @@
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Input Box 2 -->
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inputbox2"
         android:layout_width="350dp"
@@ -51,7 +51,7 @@
             android:textColor="#000000"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Buttons Row 1 -->
+
 
     <ImageView
         android:id="@+id/add"
@@ -97,9 +97,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/add" />
 
-    <!-- Buttons Row 2 -->
 
-    <!-- Output Box (Moved Below Buttons) -->
+
+
     <FrameLayout
         android:layout_width="350dp"
         android:layout_height="127dp"
@@ -108,7 +108,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mul">
 
-        <!-- Background Image -->
+
         <ImageView
             android:id="@+id/outputbox_bg"
             android:layout_width="match_parent"
@@ -116,7 +116,7 @@
             android:scaleType="fitCenter"
             android:src="@drawable/outputbox" />
 
-        <!-- Centered Text Display -->
+
         <TextView
             android:id="@+id/outputbox"
             android:layout_width="match_parent"
